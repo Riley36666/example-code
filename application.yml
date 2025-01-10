@@ -1,0 +1,135 @@
+plugins:
+  youtube:
+    enabled: true # Whether this source can be used.
+    allowSearch: true # Whether "ytsearch:" and "ytmsearch:" can be used.
+    allowDirectVideoIds: true # Whether just video IDs can match. If false, only complete URLs will be loaded.
+    allowDirectPlaylistIds: true # Whether just playlist IDs can match. If false, only complete URLs will be loaded.
+    clients:
+      - MUSIC
+      - ANDROID_VR
+      - WEB
+      - WEBEMBEDDED
+  lavasrc:
+    providers:
+      - "ytsearch:\"%ISRC%\"" # Will be ignored if track does not have an ISRC. 
+      - "ytsearch:%QUERY%" # Will be used if track has no ISRC or no track could be found for the ISRC
+    sources:
+      spotify: false # Disable Spotify source
+      applemusic: false # Disable Apple Music source
+      deezer: false # Disable Deezer source
+      yandexmusic: false # Disable Yandex Music source
+      flowerytts: false # Disable Flowery TTs source
+      youtube: true # Enable YouTube search source (https://github.com/topi314/LavaSearch)
+      vkmusic: false # Disable Vk Music source
+    lyrics-sources:
+      spotify: false # Disable Spotify lyrics source
+      deezer: false # Disable Deezer lyrics source
+      youtube: false # Disable YouTube lyrics source
+      yandexmusic: false # Disable Yandex Music lyrics source
+      vkmusic: false # Disable Vk Music lyrics source
+    spotify:
+      clientId: "your client id"
+      clientSecret: "your client secret"
+      spDc: "your sp dc cookie" # The sp dc cookie used for accessing the spotify lyrics api
+      countryCode: "US" # The country code for filtering artists top tracks
+      playlistLoadLimit: 6 # The number of pages at 100 tracks each
+      albumLoadLimit: 6 # The number of pages at 50 tracks each
+      localFiles: false # Disable local files support with Spotify playlists
+    applemusic:
+      countryCode: "US" # Country code for filtering artists top tracks and language
+      mediaAPIToken: "..." # Apple music API token
+      playlistLoadLimit: 6 # The number of pages at 300 tracks each
+      albumLoadLimit: 6 # The number of pages at 300 tracks each
+    deezer:
+      masterDecryptionKey: "your master decryption key"
+      arl: "your deezer arl" # Deezer ARL cookie
+      formats: [ "FLAC", "MP3_320", "MP3_256", "MP3_128", "MP3_64", "AAC_64" ] # Available formats for premium users
+    yandexmusic:
+      accessToken: "your access token" # Access token for Yandex Music API
+      playlistLoadLimit: 1 # The number of pages at 100 tracks each
+      albumLoadLimit: 1 # The number of pages at 50 tracks each
+      artistLoadLimit: 1 # The number of pages at 10 tracks each
+    flowerytts:
+      voice: "default voice" # Flowery TTS voice (case-sensitive)
+      translate: false # Whether to translate the text to the native language of voice
+      silence: 0 # Silence duration in milliseconds (0 to 10000)
+      speed: 1.0 # Speed parameter (0.5 to 10.0)
+      audioFormat: "mp3" # Supported formats: mp3, ogg_opus, ogg_vorbis, aac, wav, flac
+    youtube:
+      countryCode: "US" # Country code for searching lyrics via ISRC
+    vkmusic:
+      userToken: "your user token" # Vk Music user token for authorization
+      playlistLoadLimit: 1 # Number of pages at 50 tracks each
+      artistLoadLimit: 1 # Number of pages at 10 tracks each
+      recommendationsLoadLimit: 10 # Number of recommended tracks
+
+server: # REST and WS server
+  port: 2333
+  address: 0.0.0.0
+  http2:
+    enabled: false # Whether to enable HTTP/2 support
+
+lavalink:
+  plugins:
+    dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.3.0"
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: false
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      nico: true
+      http: true # Warning: keeping HTTP enabled without a proxy configured could expose your server's IP address.
+      local: false
+    filters:
+      volume: true
+      equalizer: true
+      karaoke: true
+      timescale: true
+      tremolo: true
+      vibrato: true
+      distortion: true
+      rotation: true
+      channelMix: true
+      lowPass: true
+    nonAllocatingFrameBuffer: false
+    bufferDurationMs: 400
+    frameBufferDurationMs: 5000
+    opusEncodingQuality: 10
+    resamplingQuality: LOW
+    trackStuckThresholdMs: 10000
+    useSeekGhosting: true
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+    gc-warnings: true
+
+metrics:
+  prometheus:
+    enabled: false
+    endpoint: /metrics
+
+sentry:
+  dsn: ""
+  environment: ""
+
+logging:
+  file:
+    path: ./logs/
+  level:
+    root: INFO
+    lavalink: INFO
+  request:
+    enabled: true
+    includeClientInfo: true
+    includeHeaders: false
+    includeQueryString: true
+    includePayload: true
+    maxPayloadLength: 10000
+  logback:
+    rollingpolicy:
+      max-file-size: 1GB
+      max-history: 30

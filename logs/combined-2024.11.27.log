@@ -1,0 +1,144 @@
+{"level":30,"time":1732734018655,"pid":1088,"hostname":"Riley","msg":"Validating config file and environment variables"}
+{"level":40,"time":1732734018657,"pid":1088,"hostname":"Riley","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1732734018657,"pid":1088,"hostname":"Riley","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1732734018657,"pid":1088,"hostname":"Riley","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1732734018712,"pid":1088,"hostname":"Riley","msg":"Loading commands..."}
+{"level":20,"time":1732734018807,"pid":1088,"hostname":"Riley","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1732734018808,"pid":1088,"hostname":"Riley","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1732734018810,"pid":1088,"hostname":"Riley","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1732734018811,"pid":1088,"hostname":"Riley","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1732734019249,"pid":1088,"hostname":"Riley","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1732734019250,"pid":1088,"hostname":"Riley","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1732734019251,"pid":1088,"hostname":"Riley","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1732734019252,"pid":1088,"hostname":"Riley","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1732734019258,"pid":1088,"hostname":"Riley","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1732734019259,"pid":1088,"hostname":"Riley","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1732734019261,"pid":1088,"hostname":"Riley","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1732734019263,"pid":1088,"hostname":"Riley","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1732734019264,"pid":1088,"hostname":"Riley","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1732734019274,"pid":1088,"hostname":"Riley","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1732734019275,"pid":1088,"hostname":"Riley","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1732734019276,"pid":1088,"hostname":"Riley","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1732734019278,"pid":1088,"hostname":"Riley","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1732734019280,"pid":1088,"hostname":"Riley","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1732734019282,"pid":1088,"hostname":"Riley","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1732734019282,"pid":1088,"hostname":"Riley","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1732734019283,"pid":1088,"hostname":"Riley","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1732734019284,"pid":1088,"hostname":"Riley","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1732734019285,"pid":1088,"hostname":"Riley","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1732734019286,"pid":1088,"hostname":"Riley","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1732734019287,"pid":1088,"hostname":"Riley","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1732734019288,"pid":1088,"hostname":"Riley","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1732734019289,"pid":1088,"hostname":"Riley","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1732734019293,"pid":1088,"hostname":"Riley","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1732734019295,"pid":1088,"hostname":"Riley","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1732734019297,"pid":1088,"hostname":"Riley","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1732734019297,"pid":1088,"hostname":"Riley","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1732734019298,"pid":1088,"hostname":"Riley","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1732734019299,"pid":1088,"hostname":"Riley","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1732734019300,"pid":1088,"hostname":"Riley","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1732734019301,"pid":1088,"hostname":"Riley","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1732734019301,"pid":1088,"hostname":"Riley","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1732734019303,"pid":1088,"hostname":"Riley","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1732734019305,"pid":1088,"hostname":"Riley","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1732734019306,"pid":1088,"hostname":"Riley","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1732734019308,"pid":1088,"hostname":"Riley","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1732734019309,"pid":1088,"hostname":"Riley","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1732734019330,"pid":1088,"hostname":"Riley","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1732734019331,"pid":1088,"hostname":"Riley","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1732734019332,"pid":1088,"hostname":"Riley","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1732734019335,"pid":1088,"hostname":"Riley","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1732734019336,"pid":1088,"hostname":"Riley","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1732734019336,"pid":1088,"hostname":"Riley","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1732734019337,"pid":1088,"hostname":"Riley","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1732734019359,"pid":1088,"hostname":"Riley","msg":"Loaded 84 commands"}
+{"level":30,"time":1732734019359,"pid":1088,"hostname":"Riley","msg":"Loaded 65 slash commands"}
+{"level":30,"time":1732734019359,"pid":1088,"hostname":"Riley","msg":"Loading contexts..."}
+{"level":30,"time":1732734019361,"pid":1088,"hostname":"Riley","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1732734019361,"pid":1088,"hostname":"Riley","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1732734019361,"pid":1088,"hostname":"Riley","msg":"Loading events..."}
+{"level":30,"time":1732734019398,"pid":1088,"hostname":"Riley","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1732734019627,"pid":1088,"hostname":"Riley","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1732734019627,"pid":1088,"hostname":"Riley","msg":"Launching dashboard"}
+{"level":30,"time":1732734019793,"pid":1088,"hostname":"Riley","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1732734020130,"pid":1088,"hostname":"Riley","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1732734020153,"pid":1088,"hostname":"Riley","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1732734020883,"pid":1088,"hostname":"Riley","msg":"Logged in as Dave#6547! (1310315006038114397)"}
+{"level":20,"time":1732734020884,"pid":1088,"hostname":"Riley","msg":"Node \"Local Node\" debug: connection: creating websocket..."}
+{"level":30,"time":1732734020885,"pid":1088,"hostname":"Riley","msg":"Music Manager initialized"}
+{"level":50,"time":1732734021082,"pid":1088,"hostname":"Riley","err":{"type":"Error","message":"Error: Unexpected server response: 200","stack":"Error: Error: Unexpected server response: 200\n    at Connection._onerror (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\lavaclient\\dist\\lib\\node\\Connection.js:145:33)\n    at callListener (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onError (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\ws\\lib\\event-target.js:230:9)\n    at WebSocket.emit (node:events:518:28)\n    at emitErrorAndClose (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\ws\\lib\\websocket.js:1008:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"},"msg":"Node \"Local Node\" encountered an error: Error: Unexpected server response: 200.: Error: Unexpected server response: 200"}
+{"level":30,"time":1732734021086,"pid":1088,"hostname":"Riley","msg":"Node \"Local Node\" disconnected"}
+{"level":20,"time":1732734021086,"pid":1088,"hostname":"Riley","msg":"Node \"Local Node\" debug: connection: unable to reconnect"}
+{"level":30,"time":1732734022349,"pid":1088,"hostname":"Riley","msg":"Successfully registered interactions"}
+{"level":30,"time":1732734156141,"pid":13568,"hostname":"Riley","msg":"Validating config file and environment variables"}
+{"level":40,"time":1732734156144,"pid":13568,"hostname":"Riley","msg":"config.js: SUPPORT_SERVER is not provided"}
+{"level":40,"time":1732734156144,"pid":13568,"hostname":"Riley","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1732734156144,"pid":13568,"hostname":"Riley","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1732734156208,"pid":13568,"hostname":"Riley","msg":"Loading commands..."}
+{"level":20,"time":1732734156308,"pid":13568,"hostname":"Riley","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1732734156309,"pid":13568,"hostname":"Riley","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1732734156310,"pid":13568,"hostname":"Riley","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1732734156311,"pid":13568,"hostname":"Riley","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1732734156771,"pid":13568,"hostname":"Riley","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1732734156773,"pid":13568,"hostname":"Riley","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1732734156774,"pid":13568,"hostname":"Riley","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1732734156775,"pid":13568,"hostname":"Riley","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1732734156781,"pid":13568,"hostname":"Riley","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1732734156782,"pid":13568,"hostname":"Riley","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1732734156784,"pid":13568,"hostname":"Riley","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1732734156786,"pid":13568,"hostname":"Riley","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1732734156788,"pid":13568,"hostname":"Riley","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1732734156797,"pid":13568,"hostname":"Riley","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1732734156798,"pid":13568,"hostname":"Riley","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1732734156800,"pid":13568,"hostname":"Riley","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1732734156802,"pid":13568,"hostname":"Riley","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1732734156803,"pid":13568,"hostname":"Riley","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1732734156806,"pid":13568,"hostname":"Riley","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1732734156806,"pid":13568,"hostname":"Riley","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1732734156807,"pid":13568,"hostname":"Riley","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1732734156808,"pid":13568,"hostname":"Riley","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1732734156809,"pid":13568,"hostname":"Riley","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1732734156810,"pid":13568,"hostname":"Riley","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1732734156811,"pid":13568,"hostname":"Riley","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1732734156812,"pid":13568,"hostname":"Riley","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1732734156813,"pid":13568,"hostname":"Riley","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1732734156818,"pid":13568,"hostname":"Riley","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1732734156819,"pid":13568,"hostname":"Riley","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1732734156821,"pid":13568,"hostname":"Riley","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1732734156822,"pid":13568,"hostname":"Riley","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1732734156823,"pid":13568,"hostname":"Riley","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1732734156824,"pid":13568,"hostname":"Riley","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1732734156824,"pid":13568,"hostname":"Riley","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1732734156825,"pid":13568,"hostname":"Riley","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1732734156826,"pid":13568,"hostname":"Riley","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1732734156828,"pid":13568,"hostname":"Riley","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1732734156829,"pid":13568,"hostname":"Riley","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1732734156831,"pid":13568,"hostname":"Riley","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1732734156833,"pid":13568,"hostname":"Riley","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1732734156835,"pid":13568,"hostname":"Riley","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1732734156860,"pid":13568,"hostname":"Riley","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1732734156860,"pid":13568,"hostname":"Riley","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1732734156862,"pid":13568,"hostname":"Riley","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1732734156865,"pid":13568,"hostname":"Riley","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1732734156866,"pid":13568,"hostname":"Riley","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1732734156867,"pid":13568,"hostname":"Riley","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1732734156868,"pid":13568,"hostname":"Riley","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1732734156891,"pid":13568,"hostname":"Riley","msg":"Loaded 84 commands"}
+{"level":30,"time":1732734156891,"pid":13568,"hostname":"Riley","msg":"Loaded 65 slash commands"}
+{"level":30,"time":1732734156891,"pid":13568,"hostname":"Riley","msg":"Loading contexts..."}
+{"level":30,"time":1732734156893,"pid":13568,"hostname":"Riley","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1732734156893,"pid":13568,"hostname":"Riley","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1732734156893,"pid":13568,"hostname":"Riley","msg":"Loading events..."}
+{"level":30,"time":1732734156933,"pid":13568,"hostname":"Riley","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1732734157169,"pid":13568,"hostname":"Riley","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1732734157169,"pid":13568,"hostname":"Riley","msg":"Launching dashboard"}
+{"level":30,"time":1732734157347,"pid":13568,"hostname":"Riley","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1732734157667,"pid":13568,"hostname":"Riley","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1732734157686,"pid":13568,"hostname":"Riley","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1732734158463,"pid":13568,"hostname":"Riley","msg":"Logged in as Dave#6547! (1310315006038114397)"}
+{"level":20,"time":1732734158463,"pid":13568,"hostname":"Riley","msg":"Node \"Local Node\" debug: connection: creating websocket..."}
+{"level":30,"time":1732734158464,"pid":13568,"hostname":"Riley","msg":"Music Manager initialized"}
+{"level":50,"time":1732734158476,"pid":13568,"hostname":"Riley","err":{"type":"Error","message":"Error: Unexpected server response: 200","stack":"Error: Error: Unexpected server response: 200\n    at Connection._onerror (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\lavaclient\\dist\\lib\\node\\Connection.js:145:33)\n    at callListener (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onError (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\ws\\lib\\event-target.js:230:9)\n    at WebSocket.emit (node:events:518:28)\n    at emitErrorAndClose (C:\\Users\\newacc\\Desktop\\discord-js-bot-main\\node_modules\\ws\\lib\\websocket.js:1008:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"},"msg":"Node \"Local Node\" encountered an error: Error: Unexpected server response: 200.: Error: Unexpected server response: 200"}
+{"level":30,"time":1732734158480,"pid":13568,"hostname":"Riley","msg":"Node \"Local Node\" disconnected"}
+{"level":20,"time":1732734158480,"pid":13568,"hostname":"Riley","msg":"Node \"Local Node\" debug: connection: unable to reconnect"}
+{"level":30,"time":1732734158963,"pid":13568,"hostname":"Riley","msg":"Successfully registered interactions"}

@@ -1,0 +1,160 @@
+{"level":30,"time":1732810011488,"pid":23068,"hostname":"Riley","msg":"Validating config file and environment variables"}
+{"level":40,"time":1732810011490,"pid":23068,"hostname":"Riley","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1732810011490,"pid":23068,"hostname":"Riley","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1732810011580,"pid":23068,"hostname":"Riley","msg":"Loading commands..."}
+{"level":20,"time":1732810011713,"pid":23068,"hostname":"Riley","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1732810011715,"pid":23068,"hostname":"Riley","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1732810011716,"pid":23068,"hostname":"Riley","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1732810011718,"pid":23068,"hostname":"Riley","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1732810012348,"pid":23068,"hostname":"Riley","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1732810012350,"pid":23068,"hostname":"Riley","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1732810012351,"pid":23068,"hostname":"Riley","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1732810012353,"pid":23068,"hostname":"Riley","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1732810012360,"pid":23068,"hostname":"Riley","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1732810012362,"pid":23068,"hostname":"Riley","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1732810012365,"pid":23068,"hostname":"Riley","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1732810012368,"pid":23068,"hostname":"Riley","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1732810012370,"pid":23068,"hostname":"Riley","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1732810012385,"pid":23068,"hostname":"Riley","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1732810012386,"pid":23068,"hostname":"Riley","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1732810012388,"pid":23068,"hostname":"Riley","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1732810012391,"pid":23068,"hostname":"Riley","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1732810012392,"pid":23068,"hostname":"Riley","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1732810012395,"pid":23068,"hostname":"Riley","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1732810012396,"pid":23068,"hostname":"Riley","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1732810012398,"pid":23068,"hostname":"Riley","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1732810012399,"pid":23068,"hostname":"Riley","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1732810012400,"pid":23068,"hostname":"Riley","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1732810012401,"pid":23068,"hostname":"Riley","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1732810012402,"pid":23068,"hostname":"Riley","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1732810012404,"pid":23068,"hostname":"Riley","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1732810012405,"pid":23068,"hostname":"Riley","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1732810012411,"pid":23068,"hostname":"Riley","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1732810012413,"pid":23068,"hostname":"Riley","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1732810012415,"pid":23068,"hostname":"Riley","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1732810012416,"pid":23068,"hostname":"Riley","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1732810012417,"pid":23068,"hostname":"Riley","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1732810012418,"pid":23068,"hostname":"Riley","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1732810012419,"pid":23068,"hostname":"Riley","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1732810012420,"pid":23068,"hostname":"Riley","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1732810012421,"pid":23068,"hostname":"Riley","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1732810012423,"pid":23068,"hostname":"Riley","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1732810012425,"pid":23068,"hostname":"Riley","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1732810012427,"pid":23068,"hostname":"Riley","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1732810012430,"pid":23068,"hostname":"Riley","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1732810012432,"pid":23068,"hostname":"Riley","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1732810012440,"pid":23068,"hostname":"Riley","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1732810012443,"pid":23068,"hostname":"Riley","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1732810012443,"pid":23068,"hostname":"Riley","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1732810012447,"pid":23068,"hostname":"Riley","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1732810012447,"pid":23068,"hostname":"Riley","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1732810012449,"pid":23068,"hostname":"Riley","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1732810012450,"pid":23068,"hostname":"Riley","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1732810012451,"pid":23068,"hostname":"Riley","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1732810012452,"pid":23068,"hostname":"Riley","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1732810012453,"pid":23068,"hostname":"Riley","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1732810012454,"pid":23068,"hostname":"Riley","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1732810012455,"pid":23068,"hostname":"Riley","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1732810012456,"pid":23068,"hostname":"Riley","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1732810012457,"pid":23068,"hostname":"Riley","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1732810012459,"pid":23068,"hostname":"Riley","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1732810012459,"pid":23068,"hostname":"Riley","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1732810012460,"pid":23068,"hostname":"Riley","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1732810012464,"pid":23068,"hostname":"Riley","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1732810012465,"pid":23068,"hostname":"Riley","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1732810012466,"pid":23068,"hostname":"Riley","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1732810012467,"pid":23068,"hostname":"Riley","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1732810012496,"pid":23068,"hostname":"Riley","msg":"Loaded 70 commands"}
+{"level":30,"time":1732810012496,"pid":23068,"hostname":"Riley","msg":"Loaded 51 slash commands"}
+{"level":30,"time":1732810012496,"pid":23068,"hostname":"Riley","msg":"Loading contexts..."}
+{"level":30,"time":1732810012498,"pid":23068,"hostname":"Riley","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1732810012498,"pid":23068,"hostname":"Riley","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1732810012498,"pid":23068,"hostname":"Riley","msg":"Loading events..."}
+{"level":30,"time":1732810012555,"pid":23068,"hostname":"Riley","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1732810012845,"pid":23068,"hostname":"Riley","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1732810012845,"pid":23068,"hostname":"Riley","msg":"Launching dashboard"}
+{"level":30,"time":1732810013130,"pid":23068,"hostname":"Riley","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1732810013475,"pid":23068,"hostname":"Riley","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1732810013502,"pid":23068,"hostname":"Riley","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1732810014121,"pid":23068,"hostname":"Riley","msg":"Logged in as Dave#6547! (1310315006038114397)"}
+{"level":30,"time":1732810014526,"pid":23068,"hostname":"Riley","msg":"Successfully registered interactions"}
+{"level":30,"time":1732811357840,"pid":26572,"hostname":"Riley","msg":"Validating config file and environment variables"}
+{"level":40,"time":1732811357842,"pid":26572,"hostname":"Riley","msg":"env: WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1732811357842,"pid":26572,"hostname":"Riley","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1732811357915,"pid":26572,"hostname":"Riley","msg":"Loading commands..."}
+{"level":20,"time":1732811358018,"pid":26572,"hostname":"Riley","msg":"Skipping Command bank. Category ECONOMY is disabled"}
+{"level":20,"time":1732811358020,"pid":26572,"hostname":"Riley","msg":"Skipping Command beg. Category ECONOMY is disabled"}
+{"level":20,"time":1732811358021,"pid":26572,"hostname":"Riley","msg":"Skipping Command daily. Category ECONOMY is disabled"}
+{"level":20,"time":1732811358022,"pid":26572,"hostname":"Riley","msg":"Skipping Command gamble. Category ECONOMY is disabled"}
+{"level":20,"time":1732811358580,"pid":26572,"hostname":"Riley","msg":"Skipping Command giveaway. Category GIVEAWAY is disabled"}
+{"level":20,"time":1732811358582,"pid":26572,"hostname":"Riley","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1732811358583,"pid":26572,"hostname":"Riley","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1732811358585,"pid":26572,"hostname":"Riley","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1732811358591,"pid":26572,"hostname":"Riley","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1732811358593,"pid":26572,"hostname":"Riley","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1732811358596,"pid":26572,"hostname":"Riley","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1732811358598,"pid":26572,"hostname":"Riley","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1732811358601,"pid":26572,"hostname":"Riley","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1732811358614,"pid":26572,"hostname":"Riley","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1732811358615,"pid":26572,"hostname":"Riley","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1732811358618,"pid":26572,"hostname":"Riley","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1732811358620,"pid":26572,"hostname":"Riley","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1732811358622,"pid":26572,"hostname":"Riley","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1732811358626,"pid":26572,"hostname":"Riley","msg":"Skipping Command addinvites. Category INVITE is disabled"}
+{"level":20,"time":1732811358627,"pid":26572,"hostname":"Riley","msg":"Skipping Command invitecodes. Category INVITE is disabled"}
+{"level":20,"time":1732811358628,"pid":26572,"hostname":"Riley","msg":"Skipping Command inviter. Category INVITE is disabled"}
+{"level":20,"time":1732811358630,"pid":26572,"hostname":"Riley","msg":"Skipping Command inviterank. Category INVITE is disabled"}
+{"level":20,"time":1732811358631,"pid":26572,"hostname":"Riley","msg":"Skipping Command inviteranks. Category INVITE is disabled"}
+{"level":20,"time":1732811358633,"pid":26572,"hostname":"Riley","msg":"Skipping Command invites. Category INVITE is disabled"}
+{"level":20,"time":1732811358634,"pid":26572,"hostname":"Riley","msg":"Skipping Command invitesimport. Category INVITE is disabled"}
+{"level":20,"time":1732811358636,"pid":26572,"hostname":"Riley","msg":"Skipping Command invitetracker. Category INVITE is disabled"}
+{"level":20,"time":1732811358637,"pid":26572,"hostname":"Riley","msg":"Skipping Command resetinvites. Category INVITE is disabled"}
+{"level":20,"time":1732811358645,"pid":26572,"hostname":"Riley","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1732811358647,"pid":26572,"hostname":"Riley","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1732811358650,"pid":26572,"hostname":"Riley","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1732811358651,"pid":26572,"hostname":"Riley","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1732811358653,"pid":26572,"hostname":"Riley","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1732811358655,"pid":26572,"hostname":"Riley","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1732811358656,"pid":26572,"hostname":"Riley","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1732811358658,"pid":26572,"hostname":"Riley","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1732811358659,"pid":26572,"hostname":"Riley","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1732811358661,"pid":26572,"hostname":"Riley","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1732811358664,"pid":26572,"hostname":"Riley","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1732811358666,"pid":26572,"hostname":"Riley","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1732811358670,"pid":26572,"hostname":"Riley","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1732811358672,"pid":26572,"hostname":"Riley","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1732811358681,"pid":26572,"hostname":"Riley","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1732811358684,"pid":26572,"hostname":"Riley","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1732811358686,"pid":26572,"hostname":"Riley","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1732811358689,"pid":26572,"hostname":"Riley","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1732811358690,"pid":26572,"hostname":"Riley","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1732811358692,"pid":26572,"hostname":"Riley","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1732811358693,"pid":26572,"hostname":"Riley","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1732811358694,"pid":26572,"hostname":"Riley","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1732811358696,"pid":26572,"hostname":"Riley","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1732811358697,"pid":26572,"hostname":"Riley","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1732811358698,"pid":26572,"hostname":"Riley","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1732811358699,"pid":26572,"hostname":"Riley","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1732811358701,"pid":26572,"hostname":"Riley","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1732811358703,"pid":26572,"hostname":"Riley","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1732811358705,"pid":26572,"hostname":"Riley","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1732811358707,"pid":26572,"hostname":"Riley","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1732811358708,"pid":26572,"hostname":"Riley","msg":"Skipping slash command listservers. Disabled!"}
+{"level":20,"time":1732811358712,"pid":26572,"hostname":"Riley","msg":"Skipping Command rank. Category STATS is disabled"}
+{"level":20,"time":1732811358713,"pid":26572,"hostname":"Riley","msg":"Skipping Command stats. Category STATS is disabled"}
+{"level":20,"time":1732811358715,"pid":26572,"hostname":"Riley","msg":"Skipping Command statstracking. Category STATS is disabled"}
+{"level":20,"time":1732811358716,"pid":26572,"hostname":"Riley","msg":"Skipping Command levelup. Category STATS is disabled"}
+{"level":30,"time":1732811358749,"pid":26572,"hostname":"Riley","msg":"Loaded 70 commands"}
+{"level":30,"time":1732811358749,"pid":26572,"hostname":"Riley","msg":"Loaded 51 slash commands"}
+{"level":30,"time":1732811358749,"pid":26572,"hostname":"Riley","msg":"Loading contexts..."}
+{"level":30,"time":1732811358752,"pid":26572,"hostname":"Riley","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1732811358752,"pid":26572,"hostname":"Riley","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1732811358752,"pid":26572,"hostname":"Riley","msg":"Loading events..."}
+{"level":30,"time":1732811358797,"pid":26572,"hostname":"Riley","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1732811359068,"pid":26572,"hostname":"Riley","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1732811359068,"pid":26572,"hostname":"Riley","msg":"Launching dashboard"}
+{"level":30,"time":1732811359313,"pid":26572,"hostname":"Riley","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1732811359627,"pid":26572,"hostname":"Riley","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1732811359656,"pid":26572,"hostname":"Riley","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1732811360286,"pid":26572,"hostname":"Riley","msg":"Logged in as Dave#6547! (1310315006038114397)"}
+{"level":30,"time":1732811360704,"pid":26572,"hostname":"Riley","msg":"Successfully registered interactions"}
